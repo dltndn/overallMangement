@@ -27,10 +27,19 @@ def get_whole_data(update, context) :
   text = ti.periodicText()
   bot.sendMessage(chat_id=i.chat_id, text=text)
 
-#LP swap rate data 변경
+#LP swap rate data 변경 or load specific LP data
 def change_data(update, context): 
   loaded_data = update.message.text   #string
-  wl.write_data(loaded_data)
+  if "," in loaded_data :
+    wl.write_data(loaded_data)
+  else :
+    if "-" in loaded_data :
+      update.message.reply_text("잠시만 기다려 주세요!")
+      text = ti.specLpText(loaded_data)
+      bot.sendMessage(chat_id=i.chat_id, text=text)
+    else :
+      srm.wrong_symbol()
+  
   
 #get LP swap rate data
 def get_Lp_swap_rate(update, context): 

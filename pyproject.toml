@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.8"
 bs4 = "^0.0.1"
 common = "^0.1.2"
+python-telegram = "^0.15.0"
 telegram = "^0.0.1"
 
 [tool.poetry.dev-dependencies]

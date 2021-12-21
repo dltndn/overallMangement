@@ -33,6 +33,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "python-telegram"
+version = "0.15.0"
+description = "Python library to help you build your own Telegram clients"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "soupsieve"
 version = "2.3.1"
 description = "A modern CSS selector implementation for Beautiful Soup."
@@ -51,7 +59,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "bcab1c3827dc03771b2119eb395b9fdbbab69c01745d1db14d9c5e9af4e83d6a"
+content-hash = "a17a6bc1946fab60169e7a7fa2a9d73343c827cff6c2e3ca3bad8762049cc699"
 
 [metadata.files]
 beautifulsoup4 = [
@@ -63,6 +71,9 @@ bs4 = [
 ]
 common = [
     {file = "common-0.1.2.tar.gz", hash = "sha256:3dfa982670abefc870043b239eaa0ecd860be7aa952b1931c1356b426ff8c76a"},
+]
+python-telegram = [
+    {file = "python-telegram-0.15.0.tar.gz", hash = "sha256:35ad8d22256061ec4a6c4aa3379f217e4831c057424cbed9ec3dd61212f8c170"},
 ]
 soupsieve = [
     {file = "soupsieve-2.3.1-py3-none-any.whl", hash = "sha256:1a3cca2617c6b38c0343ed661b1fa5de5637f257d4fe22bd9f1338010a1efefb"},

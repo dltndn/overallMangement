@@ -12,7 +12,14 @@ def split_data(text) :
   symbol = data[0]
   swapRate = float(data[1])            #입력받은 데이터의 type 체크
   return symbol, swapRate
-  
+
+def split_data2(text) :
+  data = text.replace("Lp", "")
+  data = data.split('-')
+  symbol1 = data[0]
+  symbol2 = data[1]
+  return symbol1, symbol2, text
+
 
 def write_data(data) :
   symbol, swapRate = split_data(data)
