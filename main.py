@@ -11,6 +11,9 @@ bot = telegram.Bot(token=i.my_token)
 text = ti.periodicText()
 bot.sendMessage(chat_id=i.chat_id, text=text)
 
+
+
+
 # import pickle
 # import write_load_data
 
@@ -18,16 +21,13 @@ bot.sendMessage(chat_id=i.chat_id, text=text)
 # wl = write_load_data
 # file = "pastSwapData.txt"
 
-# with open(file, "rb") as f:
-#   body = pickle.load(f)
+# # with open(file, "rb") as f:
+# #   body = pickle.load(f)
 
 # body = {
-#   'kxrp-kdaiLp' : 1.0284,
-#   'kxrp-klayLp' : 0.6941,
-#   'kwbtc-ksdLp' : 48990,
-#   'kokoa-klayLp' : 0.172,
-#   'keth-kusdtLp' : 3804.8,
-#   'cla-klayLp' : 7.348
+#   'kokoa-klayLp' : 0.1538,
+#   'keth-kusdtLp' : 3968.15,
+#   'cla-wklayLpC' : 9.519
 # }
 
 # with open(file, 'wb') as f:

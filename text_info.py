@@ -29,15 +29,6 @@ def textingKokoaPrice() :
   text = 'kokoa가격 : ' + kokoaPrice + ' kusdt\n' + '\n'
   return text              #string
 
-def textingClaimPrice() :
-  textIndex, index1 = klayKusdtSwapRate('kusdt', 'klay-kusdtLp')
-  textIndex, index2 = klayTokenSwapRate('cla', 'cla-klayLp')
-  claPrice = index1 * index2
-  claPrice = str(round(claPrice, 4))
-  text = 'cla가격 : ' + claPrice + ' kusdt\n' + '\n'
-  return text              #string
-
-
 
 def textingTokenLp(symbol, stdTokenSymbol, LPsymbol) :
   textIndex, index = tokenSwapRate(symbol, stdTokenSymbol, LPsymbol)
@@ -94,17 +85,15 @@ def periodicText() :
   text0 = textingKlayPrice()
   text5 = textingTokenPrice('ksd', 'ksd-kusdtLp')
   text7 = textingKokoaPrice()
-  text9 = textingClaimPrice()
-  text1 = textingTokenLp('kxrp', 'kdai', 'kxrp-kdaiLp')
-  text2 = textingTokenKlayLp('kxrp', 'kxrp-klayLp')
-  text4 = textingTokenLp('kwbtc', 'ksd', 'kwbtc-ksdLp')
+  text9 = textingTokenLp('cla', 'kusdt', 'cla-kusdtLpC')
+  text11 = textingTokenLp('cla', 'wklay', 'cla-wklayLpC')
   text10 = textingTokenLp('keth', 'kusdt', 'keth-kusdtLp')
   text8 = textingTokenKlayLp('kokoa', 'kokoa-klayLp')
-  text11 = textingTokenKlayLp('cla', 'cla-klayLp')
   text3 = textingTokenKlayLp('kfi', 'kfi-klayLp')
-  text = text6 + text0 + text5 + text7 + text9 + text1 + text2 + text4 + text10 + text8 + text11 + text3
+  text = text6 + text0 + text5 + text7 + text9 + text11 + text10 + text8 + text3
   return text
 
+#ing
 def specLpText(loaded_data) :
   dataList = []
   symbol1, symbol2, LP = wl.split_data2(loaded_data)

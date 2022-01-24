@@ -20,7 +20,12 @@ tokenLpAdress = {
   'ksd-kusdtLp' : "0xc9ad2f9c45c9cc3128c898fe55c14a146e7d1d88",
   'kwbtc-ksdLp' : "0x6da444c57ffc8a58e52c5caf3975e7cbe91221fe",
   'kwbtc-kusdtLp' : "0x9103beb39283da9c49b020d6546fd7c39f9bbc5b",
-  'keth-kusdtLp' : "0x029e2a1b2bb91b66bd25027e1c211e5628dbcb93"
+  'keth-kusdtLp' : "0x029e2a1b2bb91b66bd25027e1c211e5628dbcb93",
+  'cla-kusdtLpC' : "0x19782447b7f3b8c01f07ef9136f378a92ef09664",
+  'cla-wklayLpC' : "0x9ddcbc22beb97899b5cedcabba50a98314c3bac1",
+  'wemix-claLpC' : "0x9f59ed46b523dc0cadae811244ab2ea53aa5dcd0",
+  'wklay-kusdtLpC' : "0x5ad1139c1a45e6f881a30638f824efe2176d3624",
+  'keth-kusdtLpC' : "0xc462708c7de5228021831f69a2d770d23f5b5016"
 }
 
 tokenAdress = {
@@ -32,5 +37,7 @@ tokenAdress = {
   'kokoa' : "0xb15183d0d4d5e86ba702ce9bb7b633376e7db29f",
   'kwbtc' : "0x16d0e1fbd024c600ca0380a4c5d57ee7a2ecbf9c",
   'keth' : "0x34d21b1e550d73cee41151c77f3c73359527a396",
-  'cla' : "0xcf87f94fd8f6b6f0b479771f10df672f99eada63"
+  'cla' : "0xcf87f94fd8f6b6f0b479771f10df672f99eada63",
+  'wemix' : "0x5096db80b21ef45230c9e423c373f1fc9c0198dd",
+  'wklay' : "0xe4f05a66ec68b54a58b17c22107b02e0232cc817"
 }
