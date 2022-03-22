@@ -27,7 +27,10 @@ bot.sendMessage(chat_id=i.chat_id, text=text)
 # body = {
 #   'kokoa-klayLp' : 0.1538,
 #   'keth-kusdtLp' : 3968.15,
-#   'cla-wklayLpC' : 9.519
+#   'cla-wklayLpC' : 8.218,
+#   'wklay-kusdtLpC' : 1.22,
+#   'cla-kusdtLpC' : 14.4,
+#   'kwbtc-kusdtLpP' : 38404
 # }
 
 # with open(file, 'wb') as f:

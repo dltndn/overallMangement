@@ -25,7 +25,8 @@ tokenLpAdress = {
   'cla-wklayLpC' : "0x9ddcbc22beb97899b5cedcabba50a98314c3bac1",
   'wemix-claLpC' : "0x9f59ed46b523dc0cadae811244ab2ea53aa5dcd0",
   'wklay-kusdtLpC' : "0x5ad1139c1a45e6f881a30638f824efe2176d3624",
-  'keth-kusdtLpC' : "0xc462708c7de5228021831f69a2d770d23f5b5016"
+  'keth-kusdtLpC' : "0xc462708c7de5228021831f69a2d770d23f5b5016",
+  'kwbtc-kusdtLpP' : "0x2d2926ac369e5b1d32e56d0fbbc7471ee29a8bcd"
 }
 
 tokenAdress = {

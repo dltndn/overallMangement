@@ -84,13 +84,13 @@ def periodicText() :
   text6 = textingTokenPrice('kwbtc', 'kwbtc-kusdtLp')
   text0 = textingKlayPrice()
   text5 = textingTokenPrice('ksd', 'ksd-kusdtLp')
-  text7 = textingKokoaPrice()
+  text7 = textingTokenLp('kwbtc', 'kusdt', 'kwbtc-kusdtLpP')
+  text10 = textingTokenLp('keth', 'kusdt', 'keth-kusdtLp')
   text9 = textingTokenLp('cla', 'kusdt', 'cla-kusdtLpC')
   text11 = textingTokenLp('cla', 'wklay', 'cla-wklayLpC')
-  text10 = textingTokenLp('keth', 'kusdt', 'keth-kusdtLp')
   text8 = textingTokenKlayLp('kokoa', 'kokoa-klayLp')
   text3 = textingTokenKlayLp('kfi', 'kfi-klayLp')
-  text = text6 + text0 + text5 + text7 + text9 + text11 + text10 + text8 + text3
+  text = text6 + text0 + text5 + text7 + text10 + text9 + text11 + text8 + text3
   return text
 
 #ing
